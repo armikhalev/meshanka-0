@@ -211,6 +211,7 @@ cljs.core.cst$sym$_hash = new cljs.core.Symbol(null,"_hash","_hash",-2130838312,
 cljs.core.cst$kw$on_DASH_dispose = new cljs.core.Keyword(null,"on-dispose","on-dispose",2105306360);
 cljs.core.cst$kw$table$future_DASH_tense_DASH_imperfective_DASH_table = new cljs.core.Keyword(null,"table.future-tense-imperfective-table","table.future-tense-imperfective-table",-478265032);
 cljs.core.cst$kw$f = new cljs.core.Keyword(null,"f","f",-1597136552);
+cljs.core.cst$kw$nuva = new cljs.core.Keyword(null,"nuva","nuva",1511407992);
 cljs.core.cst$kw$error = new cljs.core.Keyword(null,"error","error",-978969032);
 cljs.core.cst$kw$h2 = new cljs.core.Keyword(null,"h2","h2",-372662728);
 cljs.core.cst$kw$on = new cljs.core.Keyword(null,"on","on",173873944);

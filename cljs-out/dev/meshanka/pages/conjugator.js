@@ -122,86 +122,24 @@ case "\u017Eaji->zi":
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stem),"z\u00ED"].join('');
 
 break;
+case "nuva":
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stem.slice((0),(-1))),"\u00FA"].join('');
+
+break;
 default:
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(root),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stressed_vowel)].join('');
 
 }
 });
-meshanka.pages.conjugator.imperfective_infinitive = (function meshanka$pages$conjugator$imperfective_infinitive(p__11177){
+meshanka.pages.conjugator.past_imperfective = (function meshanka$pages$conjugator$past_imperfective(p__11177){
 var map__11178 = p__11177;
 var map__11178__$1 = cljs.core.__destructure_map(map__11178);
-var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11178__$1,cljs.core.cst$kw$verb_DASH_type);
 var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11178__$1,cljs.core.cst$kw$base);
-var G__11179 = verb_type;
-var G__11179__$1 = (((G__11179 instanceof cljs.core.Keyword))?G__11179.fqn:null);
-switch (G__11179__$1) {
-case "iti":
-return "iti";
-
-break;
-case "but":
-return "but";
-
-break;
-case "mog\u010Di":
-return "mog\u010Di";
-
-break;
-default:
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"t"].join('');
-
-}
-});
-meshanka.pages.conjugator.perfective_infinitive = (function meshanka$pages$conjugator$perfective_infinitive(p__11181){
-var map__11182 = p__11181;
-var map__11182__$1 = cljs.core.__destructure_map(map__11182);
-var props = map__11182__$1;
-var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11182__$1,cljs.core.cst$kw$verb_DASH_type);
-var prefix = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11182__$1,cljs.core.cst$kw$prefix);
-var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11182__$1,cljs.core.cst$kw$base);
-var past_perf = meshanka.pages.conjugator.past_perfective(props);
-var G__11183 = verb_type;
-var G__11183__$1 = (((G__11183 instanceof cljs.core.Keyword))?G__11183.fqn:null);
-switch (G__11183__$1) {
-case "iti":
-return "priit\u00ED";
-
-break;
-case "but":
-return "but";
-
-break;
-case "mog\u010Di":
-return "smog\u010D\u00ED";
-
-break;
-default:
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(past_perf),"ti"].join('');
-
-}
-});
-meshanka.pages.conjugator.present_tense = (function meshanka$pages$conjugator$present_tense(p__11185){
-var map__11186 = p__11185;
-var map__11186__$1 = cljs.core.__destructure_map(map__11186);
-var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11186__$1,cljs.core.cst$kw$base);
-var verb = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11186__$1,cljs.core.cst$kw$verb);
-var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11186__$1,cljs.core.cst$kw$verb_DASH_type);
-var but_type_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$but,verb_type);
-return new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$ja,((but_type_QMARK_)?"jesim, sim, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"m"].join('')),cljs.core.cst$kw$mi,((but_type_QMARK_)?"jesm\u00F3, smo, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"mo"].join('')),cljs.core.cst$kw$ti,((but_type_QMARK_)?"jes\u00ED, si, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"\u0161"].join('')),cljs.core.cst$kw$vi,((but_type_QMARK_)?"jest\u00E9, ste, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"te"].join('')),cljs.core.cst$kw$on,((but_type_QMARK_)?"jest, je":verb),cljs.core.cst$kw$oni,((but_type_QMARK_)?"jes\u00F3, so, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"jo"].join(''))], null);
-});
-meshanka.pages.conjugator.present_tense_view = (function meshanka$pages$conjugator$present_tense_view(props){
-var verb = meshanka.pages.conjugator.present_tense(props);
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div_SHARP_present_DASH_tense$block,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$h4,"Nastoje\u010Di \u010Das / Present tense"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div$present_DASH_tense,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table$present_DASH_tense_DASH_table,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$thead,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Jedinistveni lik / Singular "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Mno\u017Eistveni lik / Plural"], null)], null)], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tbody,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$ja.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$mi.cljs$core$IFn$_invoke$arity$1(verb)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$ti.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$vi.cljs$core$IFn$_invoke$arity$1(verb)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$on.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$oni.cljs$core$IFn$_invoke$arity$1(verb)], null)], null)], null)], null)], null)], null);
-});
-meshanka.pages.conjugator.past_imperfective = (function meshanka$pages$conjugator$past_imperfective(p__11187){
-var map__11188 = p__11187;
-var map__11188__$1 = cljs.core.__destructure_map(map__11188);
-var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11188__$1,cljs.core.cst$kw$base);
-var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11188__$1,cljs.core.cst$kw$verb_DASH_type);
+var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11178__$1,cljs.core.cst$kw$verb_DASH_type);
 var root = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(verb_type,cljs.core.cst$kw$va))?base.slice((0),(-2)):base.slice((0),(-1)));
 var ending = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(verb_type,cljs.core.cst$kw$va))?root.slice((-1)):base.slice((-1)));
-var stressed_vowel = (function (){var G__11189 = ending;
-switch (G__11189) {
+var stressed_vowel = (function (){var G__11179 = ending;
+switch (G__11179) {
 case "a":
 return "\u00E1";
 
@@ -227,9 +165,9 @@ return ending;
 
 }
 })();
-var G__11190 = verb_type;
-var G__11190__$1 = (((G__11190 instanceof cljs.core.Keyword))?G__11190.fqn:null);
-switch (G__11190__$1) {
+var G__11180 = verb_type;
+var G__11180__$1 = (((G__11180 instanceof cljs.core.Keyword))?G__11180.fqn:null);
+switch (G__11180__$1) {
 case "but":
 return "buva";
 
@@ -238,10 +176,86 @@ case "va":
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(root.slice((0),(-1))),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stressed_vowel),"va"].join('');
 
 break;
+case "nuva":
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(root.slice((0),(-3))),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stressed_vowel),"va"].join('');
+
+break;
 default:
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(root),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stressed_vowel),"va"].join('');
 
 }
+});
+meshanka.pages.conjugator.imperfective_infinitive = (function meshanka$pages$conjugator$imperfective_infinitive(p__11183){
+var map__11184 = p__11183;
+var map__11184__$1 = cljs.core.__destructure_map(map__11184);
+var props = map__11184__$1;
+var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11184__$1,cljs.core.cst$kw$verb_DASH_type);
+var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11184__$1,cljs.core.cst$kw$base);
+var imperf_base = meshanka.pages.conjugator.past_imperfective(props);
+var G__11185 = verb_type;
+var G__11185__$1 = (((G__11185 instanceof cljs.core.Keyword))?G__11185.fqn:null);
+switch (G__11185__$1) {
+case "iti":
+return "iti";
+
+break;
+case "but":
+return "but";
+
+break;
+case "mog\u010Di":
+return "mog\u010Di";
+
+break;
+case "nuva":
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(imperf_base.slice((0),(-3))),"at"].join('');
+
+break;
+default:
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"t"].join('');
+
+}
+});
+meshanka.pages.conjugator.perfective_infinitive = (function meshanka$pages$conjugator$perfective_infinitive(p__11187){
+var map__11188 = p__11187;
+var map__11188__$1 = cljs.core.__destructure_map(map__11188);
+var props = map__11188__$1;
+var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11188__$1,cljs.core.cst$kw$verb_DASH_type);
+var prefix = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11188__$1,cljs.core.cst$kw$prefix);
+var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11188__$1,cljs.core.cst$kw$base);
+var past_perf = meshanka.pages.conjugator.past_perfective(props);
+var G__11189 = verb_type;
+var G__11189__$1 = (((G__11189 instanceof cljs.core.Keyword))?G__11189.fqn:null);
+switch (G__11189__$1) {
+case "iti":
+return "priit\u00ED";
+
+break;
+case "but":
+return "but";
+
+break;
+case "mog\u010Di":
+return "smog\u010D\u00ED";
+
+break;
+default:
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(past_perf),"ti"].join('');
+
+}
+});
+meshanka.pages.conjugator.present_tense = (function meshanka$pages$conjugator$present_tense(p__11191){
+var map__11192 = p__11191;
+var map__11192__$1 = cljs.core.__destructure_map(map__11192);
+var base = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11192__$1,cljs.core.cst$kw$base);
+var verb = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11192__$1,cljs.core.cst$kw$verb);
+var verb_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__11192__$1,cljs.core.cst$kw$verb_DASH_type);
+var but_type_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$but,verb_type);
+return new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$ja,((but_type_QMARK_)?"jesim, sim, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"m"].join('')),cljs.core.cst$kw$mi,((but_type_QMARK_)?"jesm\u00F3, smo, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"mo"].join('')),cljs.core.cst$kw$ti,((but_type_QMARK_)?"jes\u00ED, si, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"\u0161"].join('')),cljs.core.cst$kw$vi,((but_type_QMARK_)?"jest\u00E9, ste, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"te"].join('')),cljs.core.cst$kw$on,((but_type_QMARK_)?"jest, je":verb),cljs.core.cst$kw$oni,((but_type_QMARK_)?"jes\u00F3, so, je":[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base),"jo"].join(''))], null);
+});
+meshanka.pages.conjugator.present_tense_view = (function meshanka$pages$conjugator$present_tense_view(props){
+var verb = meshanka.pages.conjugator.present_tense(props);
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div_SHARP_present_DASH_tense$block,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$h4,"Nastoje\u010Di \u010Das / Present tense"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div$present_DASH_tense,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table$present_DASH_tense_DASH_table,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$thead,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Jedinistveni lik / Singular "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Mno\u017Eistveni lik / Plural"], null)], null)], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tbody,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$ja.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$mi.cljs$core$IFn$_invoke$arity$1(verb)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$ti.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$vi.cljs$core$IFn$_invoke$arity$1(verb)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$person3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$on.cljs$core$IFn$_invoke$arity$1(verb)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,cljs.core.cst$kw$oni.cljs$core$IFn$_invoke$arity$1(verb)], null)], null)], null)], null)], null)], null);
 });
 meshanka.pages.conjugator.future_perfective = (function meshanka$pages$conjugator$future_perfective(p__11193){
 var map__11194 = p__11193;
@@ -378,6 +392,10 @@ case "but":
 return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$pf,"bev\u0161i",cljs.core.cst$kw$impf,"buv\u0161i"], null);
 
 break;
+case "nuva":
+return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(meshanka.pages.conjugator.past_perfective(props)),"v\u0161i"].join(''),cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(meshanka.pages.conjugator.past_imperfective(props)),"v\u0161i"].join('')], null);
+
+break;
 default:
 return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(meshanka.pages.conjugator.past_perfective(props)),"v\u0161i"].join(''),cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.cst$kw$base.cljs$core$IFn$_invoke$arity$1(props)),"v\u0161i"].join('')], null);
 
@@ -407,6 +425,10 @@ case "\u0161a->si":
 return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base__$1),"ni"].join(''),cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(impf_root),"eni"].join('')], null);
 
 break;
+case "\u017Eaji->zi":
+return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base__$1),"ni"].join(''),cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(impf_root),"eni"].join('')], null);
+
+break;
 case "ji":
 case "ja":
 return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(base__$1),"ni"].join(''),cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(pf_root),"jeni"].join('')], null);
@@ -414,6 +436,10 @@ return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$impf,[cljs.co
 break;
 case "i":
 return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(impf_root),"jeni"].join(''),cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(pf_root),"jeni"].join('')], null);
+
+break;
+case "nuva":
+return new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$pf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),cljs.core.str.cljs$core$IFn$_invoke$arity$1(impf_root),"\u00E1ni"].join(''),cljs.core.cst$kw$impf,[cljs.core.str.cljs$core$IFn$_invoke$arity$1(meshanka.pages.conjugator.past_imperfective(props)),"ni"].join('')], null);
 
 break;
 case "va":
@@ -471,6 +497,9 @@ var pred__11223 = (function (p1__11221_SHARP_,p2__11220_SHARP_){
 return goog.string.endsWith(p2__11220_SHARP_,p1__11221_SHARP_);
 });
 var expr__11224 = verb;
+if(pred__11223("nuvaje",expr__11224)){
+return cljs.core.cst$kw$nuva;
+} else {
 if(pred__11223("mo\u017Ee",expr__11224)){
 return cljs.core.cst$kw$mog_u010d_i;
 } else {
@@ -528,6 +557,7 @@ return null;
 }
 }
 }
+}
 
 }
 });
@@ -552,6 +582,10 @@ return "je";
 break;
 case "ji":
 return "ji";
+
+break;
+case "nuva":
+return "je";
 
 break;
 case "ova":
