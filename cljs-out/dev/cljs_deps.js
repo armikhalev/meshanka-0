@@ -158,10 +158,10 @@ goog.addDependency("../reagent/impl/component.js", ['reagent.impl.component'], [
 goog.addDependency("../reagent/impl/input.js", ['reagent.impl.input'], ['reagent.impl.protocols', 'cljs.core', 'reagent.impl.batching', 'reagent.impl.component']);
 goog.addDependency("../reagent/impl/template.js", ['reagent.impl.template'], ['reagent.impl.util', 'reagent.impl.protocols', 'reagent.ratom', 'react', 'cljs.core', 'goog.object', 'reagent.impl.batching', 'reagent.impl.component', 'reagent.impl.input', 'reagent.debug', 'clojure.string']);
 goog.addDependency("../reagent/core.js", ['reagent.core'], ['reagent.impl.util', 'reagent.impl.protocols', 'reagent.ratom', 'react', 'cljs.core', 'reagent.impl.template', 'reagent.impl.batching', 'reagent.impl.component', 'reagent.debug']);
-goog.addDependency("../meshanka/pages/conjugator.js", ['meshanka.pages.conjugator'], ['goog.string', 'reagent.core', 'cljs.core', 'clojure.string']);
 goog.addDependency("../cljsjs/react-dom/development/react-dom.inc.js", ['react_dom', 'cljsjs.react.dom'], ['react'], {'foreign-lib': true});
 goog.addDependency("../reagent/dom.js", ['reagent.dom'], ['reagent.impl.util', 'reagent.impl.protocols', 'reagent.ratom', 'cljs.core', 'reagent.impl.template', 'reagent.impl.batching', 'reagent.impl.input', 'react_dom']);
-goog.addDependency("../meshanka/core.js", ['meshanka.core'], ['goog.dom', 'meshanka.pages.conjugator', 'reagent.core', 'cljs.core', 'reagent.dom']);
+goog.addDependency("../meshanka/pages/conjugator.js", ['meshanka.pages.conjugator'], ['reagent.core', 'clojure.string', 'goog.string', 'cljs.core']);
+goog.addDependency("../meshanka/core.js", ['meshanka.core'], ['goog.dom', 'reagent.core', 'reagent.dom', 'meshanka.pages.conjugator', 'cljs.core']);
 goog.addDependency("../cljs/test.js", ['cljs.test'], ['cljs.core', 'cljs.pprint', 'clojure.string']);
 goog.addDependency("../figwheel/main/async_result.js", ['figwheel.main.async_result'], ['cljs.core', 'figwheel.repl']);
 goog.addDependency("../figwheel/main/testing.js", ['figwheel.main.testing'], ['goog.dom', 'cljs.core', 'cljs.test', 'clojure.string', 'figwheel.main.async_result']);

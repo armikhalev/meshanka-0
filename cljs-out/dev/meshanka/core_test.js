@@ -9,71 +9,71 @@ return cljs.test.test_var.call(null,meshanka.core_test.prepare_verb_props_test.c
 });
 meshanka.core_test.prepare_verb_props_test.cljs$lang$test = (function (){
 
-var seq__26851 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26852 = null;
-var count__26853 = (0);
-var i__26854 = (0);
+var seq__22128 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22129 = null;
+var count__22130 = (0);
+var i__22131 = (0);
 while(true){
-if((i__26854 < count__26853)){
-var v = cljs.core._nth.call(null,chunk__26852,i__26854);
-try{var values__8925__auto___26859 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prepared","prepared",1722357145).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v)),null,(1),null)),(2),null));
-var result__8926__auto___26860 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26859);
-if(cljs.core.truth_(result__8926__auto___26860)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"pass","pass",1574159993),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26859),null]));
+if((i__22131 < count__22130)){
+var v = cljs.core._nth.call(null,chunk__22129,i__22131);
+try{var values__8925__auto___22136 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prepared","prepared",1722357145).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v)),null,(1),null)),(2),null));
+var result__8926__auto___22137 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22136);
+if(cljs.core.truth_(result__8926__auto___22137)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"pass","pass",1574159993),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22136),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"fail","fail",1706214930),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26859),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"fail","fail",1706214930),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22136),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26857){var t__8976__auto___26861 = e26857;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"error","error",-978969032),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,t__8976__auto___26861,null]));
+}catch (e22134){var t__8976__auto___22138 = e22134;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"error","error",-978969032),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,t__8976__auto___22138,null]));
 }
 
-var G__26862 = seq__26851;
-var G__26863 = chunk__26852;
-var G__26864 = count__26853;
-var G__26865 = (i__26854 + (1));
-seq__26851 = G__26862;
-chunk__26852 = G__26863;
-count__26853 = G__26864;
-i__26854 = G__26865;
+var G__22139 = seq__22128;
+var G__22140 = chunk__22129;
+var G__22141 = count__22130;
+var G__22142 = (i__22131 + (1));
+seq__22128 = G__22139;
+chunk__22129 = G__22140;
+count__22130 = G__22141;
+i__22131 = G__22142;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26851);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22128);
 if(temp__5720__auto__){
-var seq__26851__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26851__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26851__$1);
-var G__26866 = cljs.core.chunk_rest.call(null,seq__26851__$1);
-var G__26867 = c__4679__auto__;
-var G__26868 = cljs.core.count.call(null,c__4679__auto__);
-var G__26869 = (0);
-seq__26851 = G__26866;
-chunk__26852 = G__26867;
-count__26853 = G__26868;
-i__26854 = G__26869;
+var seq__22128__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22128__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22128__$1);
+var G__22143 = cljs.core.chunk_rest.call(null,seq__22128__$1);
+var G__22144 = c__4679__auto__;
+var G__22145 = cljs.core.count.call(null,c__4679__auto__);
+var G__22146 = (0);
+seq__22128 = G__22143;
+chunk__22129 = G__22144;
+count__22130 = G__22145;
+i__22131 = G__22146;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26851__$1);
-try{var values__8925__auto___26870 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prepared","prepared",1722357145).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v)),null,(1),null)),(2),null));
-var result__8926__auto___26871 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26870);
-if(cljs.core.truth_(result__8926__auto___26871)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"pass","pass",1574159993),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26870),null]));
+var v = cljs.core.first.call(null,seq__22128__$1);
+try{var values__8925__auto___22147 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prepared","prepared",1722357145).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v)),null,(1),null)),(2),null));
+var result__8926__auto___22148 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22147);
+if(cljs.core.truth_(result__8926__auto___22148)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"pass","pass",1574159993),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22147),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"fail","fail",1706214930),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26870),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"fail","fail",1706214930),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22147),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26858){var t__8976__auto___26872 = e26858;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"error","error",-978969032),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,t__8976__auto___26872,null]));
+}catch (e22135){var t__8976__auto___22149 = e22135;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",67,new cljs.core.Keyword(null,"error","error",-978969032),8,437,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prepared","prepared",1722357145),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)))),437,t__8976__auto___22149,null]));
 }
 
-var G__26873 = cljs.core.next.call(null,seq__26851__$1);
-var G__26874 = null;
-var G__26875 = (0);
-var G__26876 = (0);
-seq__26851 = G__26873;
-chunk__26852 = G__26874;
-count__26853 = G__26875;
-i__26854 = G__26876;
+var G__22150 = cljs.core.next.call(null,seq__22128__$1);
+var G__22151 = null;
+var G__22152 = (0);
+var G__22153 = (0);
+seq__22128 = G__22150;
+chunk__22129 = G__22151;
+count__22130 = G__22152;
+i__22131 = G__22153;
 continue;
 }
 } else {
@@ -89,71 +89,71 @@ meshanka.core_test.past_perfective_test = (function meshanka$core_test$past_perf
 return cljs.test.test_var.call(null,meshanka.core_test.past_perfective_test.cljs$lang$var);
 });
 meshanka.core_test.past_perfective_test.cljs$lang$test = (function (){
-var seq__26877 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26878 = null;
-var count__26879 = (0);
-var i__26880 = (0);
+var seq__22154 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22155 = null;
+var count__22156 = (0);
+var i__22157 = (0);
 while(true){
-if((i__26880 < count__26879)){
-var v = cljs.core._nth.call(null,chunk__26878,i__26880);
-try{var values__8925__auto___26885 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26886 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26885);
-if(cljs.core.truth_(result__8926__auto___26886)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"pass","pass",1574159993),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26885),null]));
+if((i__22157 < count__22156)){
+var v = cljs.core._nth.call(null,chunk__22155,i__22157);
+try{var values__8925__auto___22162 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22163 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22162);
+if(cljs.core.truth_(result__8926__auto___22163)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"pass","pass",1574159993),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22162),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"fail","fail",1706214930),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26885),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"fail","fail",1706214930),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22162),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26883){var t__8976__auto___26887 = e26883;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"error","error",-978969032),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,t__8976__auto___26887,null]));
+}catch (e22160){var t__8976__auto___22164 = e22160;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"error","error",-978969032),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,t__8976__auto___22164,null]));
 }
 
-var G__26888 = seq__26877;
-var G__26889 = chunk__26878;
-var G__26890 = count__26879;
-var G__26891 = (i__26880 + (1));
-seq__26877 = G__26888;
-chunk__26878 = G__26889;
-count__26879 = G__26890;
-i__26880 = G__26891;
+var G__22165 = seq__22154;
+var G__22166 = chunk__22155;
+var G__22167 = count__22156;
+var G__22168 = (i__22157 + (1));
+seq__22154 = G__22165;
+chunk__22155 = G__22166;
+count__22156 = G__22167;
+i__22157 = G__22168;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26877);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22154);
 if(temp__5720__auto__){
-var seq__26877__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26877__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26877__$1);
-var G__26892 = cljs.core.chunk_rest.call(null,seq__26877__$1);
-var G__26893 = c__4679__auto__;
-var G__26894 = cljs.core.count.call(null,c__4679__auto__);
-var G__26895 = (0);
-seq__26877 = G__26892;
-chunk__26878 = G__26893;
-count__26879 = G__26894;
-i__26880 = G__26895;
+var seq__22154__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22154__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22154__$1);
+var G__22169 = cljs.core.chunk_rest.call(null,seq__22154__$1);
+var G__22170 = c__4679__auto__;
+var G__22171 = cljs.core.count.call(null,c__4679__auto__);
+var G__22172 = (0);
+seq__22154 = G__22169;
+chunk__22155 = G__22170;
+count__22156 = G__22171;
+i__22157 = G__22172;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26877__$1);
-try{var values__8925__auto___26896 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26897 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26896);
-if(cljs.core.truth_(result__8926__auto___26897)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"pass","pass",1574159993),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26896),null]));
+var v = cljs.core.first.call(null,seq__22154__$1);
+try{var values__8925__auto___22173 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22174 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22173);
+if(cljs.core.truth_(result__8926__auto___22174)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"pass","pass",1574159993),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22173),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"fail","fail",1706214930),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26896),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"fail","fail",1706214930),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22173),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26884){var t__8976__auto___26898 = e26884;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"error","error",-978969032),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,t__8976__auto___26898,null]));
+}catch (e22161){var t__8976__auto___22175 = e22161;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",97,new cljs.core.Keyword(null,"error","error",-978969032),9,441,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pf","past-pf",-2018295043),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-perfective","conjugator/past-perfective",1541033384,null))),441,t__8976__auto___22175,null]));
 }
 
-var G__26899 = cljs.core.next.call(null,seq__26877__$1);
-var G__26900 = null;
-var G__26901 = (0);
-var G__26902 = (0);
-seq__26877 = G__26899;
-chunk__26878 = G__26900;
-count__26879 = G__26901;
-i__26880 = G__26902;
+var G__22176 = cljs.core.next.call(null,seq__22154__$1);
+var G__22177 = null;
+var G__22178 = (0);
+var G__22179 = (0);
+seq__22154 = G__22176;
+chunk__22155 = G__22177;
+count__22156 = G__22178;
+i__22157 = G__22179;
 continue;
 }
 } else {
@@ -169,71 +169,71 @@ meshanka.core_test.past_imperfective_test = (function meshanka$core_test$past_im
 return cljs.test.test_var.call(null,meshanka.core_test.past_imperfective_test.cljs$lang$var);
 });
 meshanka.core_test.past_imperfective_test.cljs$lang$test = (function (){
-var seq__26903 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26904 = null;
-var count__26905 = (0);
-var i__26906 = (0);
+var seq__22180 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22181 = null;
+var count__22182 = (0);
+var i__22183 = (0);
 while(true){
-if((i__26906 < count__26905)){
-var v = cljs.core._nth.call(null,chunk__26904,i__26906);
-try{var values__8925__auto___26911 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-impf","past-impf",-10411593).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26912 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26911);
-if(cljs.core.truth_(result__8926__auto___26912)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"pass","pass",1574159993),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26911),null]));
+if((i__22183 < count__22182)){
+var v = cljs.core._nth.call(null,chunk__22181,i__22183);
+try{var values__8925__auto___22188 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-impf","past-impf",-10411593).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22189 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22188);
+if(cljs.core.truth_(result__8926__auto___22189)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"pass","pass",1574159993),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22188),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"fail","fail",1706214930),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26911),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"fail","fail",1706214930),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22188),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26909){var t__8976__auto___26913 = e26909;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"error","error",-978969032),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,t__8976__auto___26913,null]));
+}catch (e22186){var t__8976__auto___22190 = e22186;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"error","error",-978969032),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,t__8976__auto___22190,null]));
 }
 
-var G__26914 = seq__26903;
-var G__26915 = chunk__26904;
-var G__26916 = count__26905;
-var G__26917 = (i__26906 + (1));
-seq__26903 = G__26914;
-chunk__26904 = G__26915;
-count__26905 = G__26916;
-i__26906 = G__26917;
+var G__22191 = seq__22180;
+var G__22192 = chunk__22181;
+var G__22193 = count__22182;
+var G__22194 = (i__22183 + (1));
+seq__22180 = G__22191;
+chunk__22181 = G__22192;
+count__22182 = G__22193;
+i__22183 = G__22194;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26903);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22180);
 if(temp__5720__auto__){
-var seq__26903__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26903__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26903__$1);
-var G__26918 = cljs.core.chunk_rest.call(null,seq__26903__$1);
-var G__26919 = c__4679__auto__;
-var G__26920 = cljs.core.count.call(null,c__4679__auto__);
-var G__26921 = (0);
-seq__26903 = G__26918;
-chunk__26904 = G__26919;
-count__26905 = G__26920;
-i__26906 = G__26921;
+var seq__22180__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22180__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22180__$1);
+var G__22195 = cljs.core.chunk_rest.call(null,seq__22180__$1);
+var G__22196 = c__4679__auto__;
+var G__22197 = cljs.core.count.call(null,c__4679__auto__);
+var G__22198 = (0);
+seq__22180 = G__22195;
+chunk__22181 = G__22196;
+count__22182 = G__22197;
+i__22183 = G__22198;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26903__$1);
-try{var values__8925__auto___26922 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-impf","past-impf",-10411593).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26923 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26922);
-if(cljs.core.truth_(result__8926__auto___26923)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"pass","pass",1574159993),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26922),null]));
+var v = cljs.core.first.call(null,seq__22180__$1);
+try{var values__8925__auto___22199 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-impf","past-impf",-10411593).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22200 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22199);
+if(cljs.core.truth_(result__8926__auto___22200)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"pass","pass",1574159993),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22199),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"fail","fail",1706214930),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26922),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"fail","fail",1706214930),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22199),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26910){var t__8976__auto___26924 = e26910;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"error","error",-978969032),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,t__8976__auto___26924,null]));
+}catch (e22187){var t__8976__auto___22201 = e22187;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",101,new cljs.core.Keyword(null,"error","error",-978969032),9,445,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-impf","past-impf",-10411593),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-imperfective","conjugator/past-imperfective",-2087651668,null))),445,t__8976__auto___22201,null]));
 }
 
-var G__26925 = cljs.core.next.call(null,seq__26903__$1);
-var G__26926 = null;
-var G__26927 = (0);
-var G__26928 = (0);
-seq__26903 = G__26925;
-chunk__26904 = G__26926;
-count__26905 = G__26927;
-i__26906 = G__26928;
+var G__22202 = cljs.core.next.call(null,seq__22180__$1);
+var G__22203 = null;
+var G__22204 = (0);
+var G__22205 = (0);
+seq__22180 = G__22202;
+chunk__22181 = G__22203;
+count__22182 = G__22204;
+i__22183 = G__22205;
 continue;
 }
 } else {
@@ -249,71 +249,71 @@ meshanka.core_test.perfective_infinitive_test = (function meshanka$core_test$per
 return cljs.test.test_var.call(null,meshanka.core_test.perfective_infinitive_test.cljs$lang$var);
 });
 meshanka.core_test.perfective_infinitive_test.cljs$lang$test = (function (){
-var seq__26929 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26930 = null;
-var count__26931 = (0);
-var i__26932 = (0);
+var seq__22206 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22207 = null;
+var count__22208 = (0);
+var i__22209 = (0);
 while(true){
-if((i__26932 < count__26931)){
-var v = cljs.core._nth.call(null,chunk__26930,i__26932);
-try{var values__8925__auto___26937 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.perfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26938 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26937);
-if(cljs.core.truth_(result__8926__auto___26938)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26937),null]));
+if((i__22209 < count__22208)){
+var v = cljs.core._nth.call(null,chunk__22207,i__22209);
+try{var values__8925__auto___22214 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.perfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22215 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22214);
+if(cljs.core.truth_(result__8926__auto___22215)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22214),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26937),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22214),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26935){var t__8976__auto___26939 = e26935;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,t__8976__auto___26939,null]));
+}catch (e22212){var t__8976__auto___22216 = e22212;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,t__8976__auto___22216,null]));
 }
 
-var G__26940 = seq__26929;
-var G__26941 = chunk__26930;
-var G__26942 = count__26931;
-var G__26943 = (i__26932 + (1));
-seq__26929 = G__26940;
-chunk__26930 = G__26941;
-count__26931 = G__26942;
-i__26932 = G__26943;
+var G__22217 = seq__22206;
+var G__22218 = chunk__22207;
+var G__22219 = count__22208;
+var G__22220 = (i__22209 + (1));
+seq__22206 = G__22217;
+chunk__22207 = G__22218;
+count__22208 = G__22219;
+i__22209 = G__22220;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26929);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22206);
 if(temp__5720__auto__){
-var seq__26929__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26929__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26929__$1);
-var G__26944 = cljs.core.chunk_rest.call(null,seq__26929__$1);
-var G__26945 = c__4679__auto__;
-var G__26946 = cljs.core.count.call(null,c__4679__auto__);
-var G__26947 = (0);
-seq__26929 = G__26944;
-chunk__26930 = G__26945;
-count__26931 = G__26946;
-i__26932 = G__26947;
+var seq__22206__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22206__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22206__$1);
+var G__22221 = cljs.core.chunk_rest.call(null,seq__22206__$1);
+var G__22222 = c__4679__auto__;
+var G__22223 = cljs.core.count.call(null,c__4679__auto__);
+var G__22224 = (0);
+seq__22206 = G__22221;
+chunk__22207 = G__22222;
+count__22208 = G__22223;
+i__22209 = G__22224;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26929__$1);
-try{var values__8925__auto___26948 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.perfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26949 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26948);
-if(cljs.core.truth_(result__8926__auto___26949)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26948),null]));
+var v = cljs.core.first.call(null,seq__22206__$1);
+try{var values__8925__auto___22225 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.perfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22226 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22225);
+if(cljs.core.truth_(result__8926__auto___22226)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22225),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26948),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22225),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26936){var t__8976__auto___26950 = e26936;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,t__8976__auto___26950,null]));
+}catch (e22213){var t__8976__auto___22227 = e22213;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,449,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-pf","inf-pf",-1029203004),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","perfective-infinitive","conjugator/perfective-infinitive",202095553,null))),449,t__8976__auto___22227,null]));
 }
 
-var G__26951 = cljs.core.next.call(null,seq__26929__$1);
-var G__26952 = null;
-var G__26953 = (0);
-var G__26954 = (0);
-seq__26929 = G__26951;
-chunk__26930 = G__26952;
-count__26931 = G__26953;
-i__26932 = G__26954;
+var G__22228 = cljs.core.next.call(null,seq__22206__$1);
+var G__22229 = null;
+var G__22230 = (0);
+var G__22231 = (0);
+seq__22206 = G__22228;
+chunk__22207 = G__22229;
+count__22208 = G__22230;
+i__22209 = G__22231;
 continue;
 }
 } else {
@@ -329,71 +329,71 @@ meshanka.core_test.imperfective_infinitive_test = (function meshanka$core_test$i
 return cljs.test.test_var.call(null,meshanka.core_test.imperfective_infinitive_test.cljs$lang$var);
 });
 meshanka.core_test.imperfective_infinitive_test.cljs$lang$test = (function (){
-var seq__26955 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26956 = null;
-var count__26957 = (0);
-var i__26958 = (0);
+var seq__22232 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22233 = null;
+var count__22234 = (0);
+var i__22235 = (0);
 while(true){
-if((i__26958 < count__26957)){
-var v = cljs.core._nth.call(null,chunk__26956,i__26958);
-try{var values__8925__auto___26963 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26964 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26963);
-if(cljs.core.truth_(result__8926__auto___26964)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"pass","pass",1574159993),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26963),null]));
+if((i__22235 < count__22234)){
+var v = cljs.core._nth.call(null,chunk__22233,i__22235);
+try{var values__8925__auto___22240 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22241 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22240);
+if(cljs.core.truth_(result__8926__auto___22241)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"pass","pass",1574159993),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22240),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"fail","fail",1706214930),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26963),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"fail","fail",1706214930),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22240),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26961){var t__8976__auto___26965 = e26961;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"error","error",-978969032),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,t__8976__auto___26965,null]));
+}catch (e22238){var t__8976__auto___22242 = e22238;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"error","error",-978969032),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,t__8976__auto___22242,null]));
 }
 
-var G__26966 = seq__26955;
-var G__26967 = chunk__26956;
-var G__26968 = count__26957;
-var G__26969 = (i__26958 + (1));
-seq__26955 = G__26966;
-chunk__26956 = G__26967;
-count__26957 = G__26968;
-i__26958 = G__26969;
+var G__22243 = seq__22232;
+var G__22244 = chunk__22233;
+var G__22245 = count__22234;
+var G__22246 = (i__22235 + (1));
+seq__22232 = G__22243;
+chunk__22233 = G__22244;
+count__22234 = G__22245;
+i__22235 = G__22246;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26955);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22232);
 if(temp__5720__auto__){
-var seq__26955__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26955__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26955__$1);
-var G__26970 = cljs.core.chunk_rest.call(null,seq__26955__$1);
-var G__26971 = c__4679__auto__;
-var G__26972 = cljs.core.count.call(null,c__4679__auto__);
-var G__26973 = (0);
-seq__26955 = G__26970;
-chunk__26956 = G__26971;
-count__26957 = G__26972;
-i__26958 = G__26973;
+var seq__22232__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22232__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22232__$1);
+var G__22247 = cljs.core.chunk_rest.call(null,seq__22232__$1);
+var G__22248 = c__4679__auto__;
+var G__22249 = cljs.core.count.call(null,c__4679__auto__);
+var G__22250 = (0);
+seq__22232 = G__22247;
+chunk__22233 = G__22248;
+count__22234 = G__22249;
+i__22235 = G__22250;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26955__$1);
-try{var values__8925__auto___26974 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26975 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26974);
-if(cljs.core.truth_(result__8926__auto___26975)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"pass","pass",1574159993),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26974),null]));
+var v = cljs.core.first.call(null,seq__22232__$1);
+try{var values__8925__auto___22251 = (new cljs.core.List(null,new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperfective_infinitive.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22252 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22251);
+if(cljs.core.truth_(result__8926__auto___22252)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"pass","pass",1574159993),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22251),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"fail","fail",1706214930),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26974),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"fail","fail",1706214930),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22251),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26962){var t__8976__auto___26976 = e26962;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"error","error",-978969032),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,t__8976__auto___26976,null]));
+}catch (e22239){var t__8976__auto___22253 = e22239;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",106,new cljs.core.Keyword(null,"error","error",-978969032),9,453,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"inf-impf","inf-impf",-1398302279),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperfective-infinitive","conjugator/imperfective-infinitive",-1394208419,null))),453,t__8976__auto___22253,null]));
 }
 
-var G__26977 = cljs.core.next.call(null,seq__26955__$1);
-var G__26978 = null;
-var G__26979 = (0);
-var G__26980 = (0);
-seq__26955 = G__26977;
-chunk__26956 = G__26978;
-count__26957 = G__26979;
-i__26958 = G__26980;
+var G__22254 = cljs.core.next.call(null,seq__22232__$1);
+var G__22255 = null;
+var G__22256 = (0);
+var G__22257 = (0);
+seq__22232 = G__22254;
+chunk__22233 = G__22255;
+count__22234 = G__22256;
+i__22235 = G__22257;
 continue;
 }
 } else {
@@ -409,71 +409,71 @@ meshanka.core_test.present_tense_test = (function meshanka$core_test$present_ten
 return cljs.test.test_var.call(null,meshanka.core_test.present_tense_test.cljs$lang$var);
 });
 meshanka.core_test.present_tense_test.cljs$lang$test = (function (){
-var seq__26981 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__26982 = null;
-var count__26983 = (0);
-var i__26984 = (0);
+var seq__22258 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22259 = null;
+var count__22260 = (0);
+var i__22261 = (0);
 while(true){
-if((i__26984 < count__26983)){
-var v = cljs.core._nth.call(null,chunk__26982,i__26984);
-try{var values__8925__auto___26989 = (new cljs.core.List(null,new cljs.core.Keyword(null,"present","present",-1224645465).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_tense.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___26990 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___26989);
-if(cljs.core.truth_(result__8926__auto___26990)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"pass","pass",1574159993),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26989),null]));
+if((i__22261 < count__22260)){
+var v = cljs.core._nth.call(null,chunk__22259,i__22261);
+try{var values__8925__auto___22266 = (new cljs.core.List(null,new cljs.core.Keyword(null,"present","present",-1224645465).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_tense.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22267 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22266);
+if(cljs.core.truth_(result__8926__auto___22267)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"pass","pass",1574159993),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22266),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"fail","fail",1706214930),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___26989),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"fail","fail",1706214930),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22266),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26987){var t__8976__auto___26991 = e26987;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"error","error",-978969032),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,t__8976__auto___26991,null]));
+}catch (e22264){var t__8976__auto___22268 = e22264;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"error","error",-978969032),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,t__8976__auto___22268,null]));
 }
 
-var G__26992 = seq__26981;
-var G__26993 = chunk__26982;
-var G__26994 = count__26983;
-var G__26995 = (i__26984 + (1));
-seq__26981 = G__26992;
-chunk__26982 = G__26993;
-count__26983 = G__26994;
-i__26984 = G__26995;
+var G__22269 = seq__22258;
+var G__22270 = chunk__22259;
+var G__22271 = count__22260;
+var G__22272 = (i__22261 + (1));
+seq__22258 = G__22269;
+chunk__22259 = G__22270;
+count__22260 = G__22271;
+i__22261 = G__22272;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__26981);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22258);
 if(temp__5720__auto__){
-var seq__26981__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__26981__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__26981__$1);
-var G__26996 = cljs.core.chunk_rest.call(null,seq__26981__$1);
-var G__26997 = c__4679__auto__;
-var G__26998 = cljs.core.count.call(null,c__4679__auto__);
-var G__26999 = (0);
-seq__26981 = G__26996;
-chunk__26982 = G__26997;
-count__26983 = G__26998;
-i__26984 = G__26999;
+var seq__22258__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22258__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22258__$1);
+var G__22273 = cljs.core.chunk_rest.call(null,seq__22258__$1);
+var G__22274 = c__4679__auto__;
+var G__22275 = cljs.core.count.call(null,c__4679__auto__);
+var G__22276 = (0);
+seq__22258 = G__22273;
+chunk__22259 = G__22274;
+count__22260 = G__22275;
+i__22261 = G__22276;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__26981__$1);
-try{var values__8925__auto___27000 = (new cljs.core.List(null,new cljs.core.Keyword(null,"present","present",-1224645465).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_tense.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27001 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27000);
-if(cljs.core.truth_(result__8926__auto___27001)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"pass","pass",1574159993),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27000),null]));
+var v = cljs.core.first.call(null,seq__22258__$1);
+try{var values__8925__auto___22277 = (new cljs.core.List(null,new cljs.core.Keyword(null,"present","present",-1224645465).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_tense.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22278 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22277);
+if(cljs.core.truth_(result__8926__auto___22278)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"pass","pass",1574159993),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22277),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"fail","fail",1706214930),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27000),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"fail","fail",1706214930),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22277),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e26988){var t__8976__auto___27002 = e26988;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"error","error",-978969032),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,t__8976__auto___27002,null]));
+}catch (e22265){var t__8976__auto___22279 = e22265;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",95,new cljs.core.Keyword(null,"error","error",-978969032),9,457,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"present","present",-1224645465),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-tense","conjugator/present-tense",-645865961,null))),457,t__8976__auto___22279,null]));
 }
 
-var G__27003 = cljs.core.next.call(null,seq__26981__$1);
-var G__27004 = null;
-var G__27005 = (0);
-var G__27006 = (0);
-seq__26981 = G__27003;
-chunk__26982 = G__27004;
-count__26983 = G__27005;
-i__26984 = G__27006;
+var G__22280 = cljs.core.next.call(null,seq__22258__$1);
+var G__22281 = null;
+var G__22282 = (0);
+var G__22283 = (0);
+seq__22258 = G__22280;
+chunk__22259 = G__22281;
+count__22260 = G__22282;
+i__22261 = G__22283;
 continue;
 }
 } else {
@@ -489,71 +489,71 @@ meshanka.core_test.future_perfective_test = (function meshanka$core_test$future_
 return cljs.test.test_var.call(null,meshanka.core_test.future_perfective_test.cljs$lang$var);
 });
 meshanka.core_test.future_perfective_test.cljs$lang$test = (function (){
-var seq__27007 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27008 = null;
-var count__27009 = (0);
-var i__27010 = (0);
+var seq__22284 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22285 = null;
+var count__22286 = (0);
+var i__22287 = (0);
 while(true){
-if((i__27010 < count__27009)){
-var v = cljs.core._nth.call(null,chunk__27008,i__27010);
-try{var values__8925__auto___27015 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27016 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27015);
-if(cljs.core.truth_(result__8926__auto___27016)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"pass","pass",1574159993),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27015),null]));
+if((i__22287 < count__22286)){
+var v = cljs.core._nth.call(null,chunk__22285,i__22287);
+try{var values__8925__auto___22292 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22293 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22292);
+if(cljs.core.truth_(result__8926__auto___22293)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"pass","pass",1574159993),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22292),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"fail","fail",1706214930),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27015),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"fail","fail",1706214930),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22292),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27013){var t__8976__auto___27017 = e27013;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"error","error",-978969032),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,t__8976__auto___27017,null]));
+}catch (e22290){var t__8976__auto___22294 = e22290;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"error","error",-978969032),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,t__8976__auto___22294,null]));
 }
 
-var G__27018 = seq__27007;
-var G__27019 = chunk__27008;
-var G__27020 = count__27009;
-var G__27021 = (i__27010 + (1));
-seq__27007 = G__27018;
-chunk__27008 = G__27019;
-count__27009 = G__27020;
-i__27010 = G__27021;
+var G__22295 = seq__22284;
+var G__22296 = chunk__22285;
+var G__22297 = count__22286;
+var G__22298 = (i__22287 + (1));
+seq__22284 = G__22295;
+chunk__22285 = G__22296;
+count__22286 = G__22297;
+i__22287 = G__22298;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27007);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22284);
 if(temp__5720__auto__){
-var seq__27007__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27007__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27007__$1);
-var G__27022 = cljs.core.chunk_rest.call(null,seq__27007__$1);
-var G__27023 = c__4679__auto__;
-var G__27024 = cljs.core.count.call(null,c__4679__auto__);
-var G__27025 = (0);
-seq__27007 = G__27022;
-chunk__27008 = G__27023;
-count__27009 = G__27024;
-i__27010 = G__27025;
+var seq__22284__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22284__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22284__$1);
+var G__22299 = cljs.core.chunk_rest.call(null,seq__22284__$1);
+var G__22300 = c__4679__auto__;
+var G__22301 = cljs.core.count.call(null,c__4679__auto__);
+var G__22302 = (0);
+seq__22284 = G__22299;
+chunk__22285 = G__22300;
+count__22286 = G__22301;
+i__22287 = G__22302;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27007__$1);
-try{var values__8925__auto___27026 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27027 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27026);
-if(cljs.core.truth_(result__8926__auto___27027)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"pass","pass",1574159993),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27026),null]));
+var v = cljs.core.first.call(null,seq__22284__$1);
+try{var values__8925__auto___22303 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22304 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22303);
+if(cljs.core.truth_(result__8926__auto___22304)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"pass","pass",1574159993),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22303),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"fail","fail",1706214930),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27026),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"fail","fail",1706214930),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22303),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27014){var t__8976__auto___27028 = e27014;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"error","error",-978969032),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,t__8976__auto___27028,null]));
+}catch (e22291){var t__8976__auto___22305 = e22291;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",98,new cljs.core.Keyword(null,"error","error",-978969032),9,461,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-pf","fut-pf",-1352218273),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-perfective","conjugator/future-perfective",1086060570,null))),461,t__8976__auto___22305,null]));
 }
 
-var G__27029 = cljs.core.next.call(null,seq__27007__$1);
-var G__27030 = null;
-var G__27031 = (0);
-var G__27032 = (0);
-seq__27007 = G__27029;
-chunk__27008 = G__27030;
-count__27009 = G__27031;
-i__27010 = G__27032;
+var G__22306 = cljs.core.next.call(null,seq__22284__$1);
+var G__22307 = null;
+var G__22308 = (0);
+var G__22309 = (0);
+seq__22284 = G__22306;
+chunk__22285 = G__22307;
+count__22286 = G__22308;
+i__22287 = G__22309;
 continue;
 }
 } else {
@@ -569,71 +569,71 @@ meshanka.core_test.future_imperfective_test = (function meshanka$core_test$futur
 return cljs.test.test_var.call(null,meshanka.core_test.future_imperfective_test.cljs$lang$var);
 });
 meshanka.core_test.future_imperfective_test.cljs$lang$test = (function (){
-var seq__27033 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27034 = null;
-var count__27035 = (0);
-var i__27036 = (0);
+var seq__22310 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22311 = null;
+var count__22312 = (0);
+var i__22313 = (0);
 while(true){
-if((i__27036 < count__27035)){
-var v = cljs.core._nth.call(null,chunk__27034,i__27036);
-try{var values__8925__auto___27041 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27042 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27041);
-if(cljs.core.truth_(result__8926__auto___27042)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27041),null]));
+if((i__22313 < count__22312)){
+var v = cljs.core._nth.call(null,chunk__22311,i__22313);
+try{var values__8925__auto___22318 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22319 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22318);
+if(cljs.core.truth_(result__8926__auto___22319)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22318),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27041),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22318),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27039){var t__8976__auto___27043 = e27039;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,t__8976__auto___27043,null]));
+}catch (e22316){var t__8976__auto___22320 = e22316;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,t__8976__auto___22320,null]));
 }
 
-var G__27044 = seq__27033;
-var G__27045 = chunk__27034;
-var G__27046 = count__27035;
-var G__27047 = (i__27036 + (1));
-seq__27033 = G__27044;
-chunk__27034 = G__27045;
-count__27035 = G__27046;
-i__27036 = G__27047;
+var G__22321 = seq__22310;
+var G__22322 = chunk__22311;
+var G__22323 = count__22312;
+var G__22324 = (i__22313 + (1));
+seq__22310 = G__22321;
+chunk__22311 = G__22322;
+count__22312 = G__22323;
+i__22313 = G__22324;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27033);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22310);
 if(temp__5720__auto__){
-var seq__27033__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27033__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27033__$1);
-var G__27048 = cljs.core.chunk_rest.call(null,seq__27033__$1);
-var G__27049 = c__4679__auto__;
-var G__27050 = cljs.core.count.call(null,c__4679__auto__);
-var G__27051 = (0);
-seq__27033 = G__27048;
-chunk__27034 = G__27049;
-count__27035 = G__27050;
-i__27036 = G__27051;
+var seq__22310__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22310__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22310__$1);
+var G__22325 = cljs.core.chunk_rest.call(null,seq__22310__$1);
+var G__22326 = c__4679__auto__;
+var G__22327 = cljs.core.count.call(null,c__4679__auto__);
+var G__22328 = (0);
+seq__22310 = G__22325;
+chunk__22311 = G__22326;
+count__22312 = G__22327;
+i__22313 = G__22328;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27033__$1);
-try{var values__8925__auto___27052 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27053 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27052);
-if(cljs.core.truth_(result__8926__auto___27053)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27052),null]));
+var v = cljs.core.first.call(null,seq__22310__$1);
+try{var values__8925__auto___22329 = (new cljs.core.List(null,new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.future_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22330 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22329);
+if(cljs.core.truth_(result__8926__auto___22330)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"pass","pass",1574159993),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22329),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27052),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"fail","fail",1706214930),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22329),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27040){var t__8976__auto___27054 = e27040;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,t__8976__auto___27054,null]));
+}catch (e22317){var t__8976__auto___22331 = e22317;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",102,new cljs.core.Keyword(null,"error","error",-978969032),9,465,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"fut-impf","fut-impf",1725664515),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","future-imperfective","conjugator/future-imperfective",1669027845,null))),465,t__8976__auto___22331,null]));
 }
 
-var G__27055 = cljs.core.next.call(null,seq__27033__$1);
-var G__27056 = null;
-var G__27057 = (0);
-var G__27058 = (0);
-seq__27033 = G__27055;
-chunk__27034 = G__27056;
-count__27035 = G__27057;
-i__27036 = G__27058;
+var G__22332 = cljs.core.next.call(null,seq__22310__$1);
+var G__22333 = null;
+var G__22334 = (0);
+var G__22335 = (0);
+seq__22310 = G__22332;
+chunk__22311 = G__22333;
+count__22312 = G__22334;
+i__22313 = G__22335;
 continue;
 }
 } else {
@@ -649,71 +649,71 @@ meshanka.core_test.imperative_imperfective_test = (function meshanka$core_test$i
 return cljs.test.test_var.call(null,meshanka.core_test.imperative_imperfective_test.cljs$lang$var);
 });
 meshanka.core_test.imperative_imperfective_test.cljs$lang$test = (function (){
-var seq__27059 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27060 = null;
-var count__27061 = (0);
-var i__27062 = (0);
+var seq__22336 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22337 = null;
+var count__22338 = (0);
+var i__22339 = (0);
 while(true){
-if((i__27062 < count__27061)){
-var v = cljs.core._nth.call(null,chunk__27060,i__27062);
-try{var values__8925__auto___27067 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27068 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27067);
-if(cljs.core.truth_(result__8926__auto___27068)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"pass","pass",1574159993),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27067),null]));
+if((i__22339 < count__22338)){
+var v = cljs.core._nth.call(null,chunk__22337,i__22339);
+try{var values__8925__auto___22344 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22345 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22344);
+if(cljs.core.truth_(result__8926__auto___22345)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"pass","pass",1574159993),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22344),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"fail","fail",1706214930),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27067),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"fail","fail",1706214930),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22344),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27065){var t__8976__auto___27069 = e27065;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"error","error",-978969032),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,t__8976__auto___27069,null]));
+}catch (e22342){var t__8976__auto___22346 = e22342;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"error","error",-978969032),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,t__8976__auto___22346,null]));
 }
 
-var G__27070 = seq__27059;
-var G__27071 = chunk__27060;
-var G__27072 = count__27061;
-var G__27073 = (i__27062 + (1));
-seq__27059 = G__27070;
-chunk__27060 = G__27071;
-count__27061 = G__27072;
-i__27062 = G__27073;
+var G__22347 = seq__22336;
+var G__22348 = chunk__22337;
+var G__22349 = count__22338;
+var G__22350 = (i__22339 + (1));
+seq__22336 = G__22347;
+chunk__22337 = G__22348;
+count__22338 = G__22349;
+i__22339 = G__22350;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27059);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22336);
 if(temp__5720__auto__){
-var seq__27059__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27059__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27059__$1);
-var G__27074 = cljs.core.chunk_rest.call(null,seq__27059__$1);
-var G__27075 = c__4679__auto__;
-var G__27076 = cljs.core.count.call(null,c__4679__auto__);
-var G__27077 = (0);
-seq__27059 = G__27074;
-chunk__27060 = G__27075;
-count__27061 = G__27076;
-i__27062 = G__27077;
+var seq__22336__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22336__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22336__$1);
+var G__22351 = cljs.core.chunk_rest.call(null,seq__22336__$1);
+var G__22352 = c__4679__auto__;
+var G__22353 = cljs.core.count.call(null,c__4679__auto__);
+var G__22354 = (0);
+seq__22336 = G__22351;
+chunk__22337 = G__22352;
+count__22338 = G__22353;
+i__22339 = G__22354;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27059__$1);
-try{var values__8925__auto___27078 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27079 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27078);
-if(cljs.core.truth_(result__8926__auto___27079)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"pass","pass",1574159993),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27078),null]));
+var v = cljs.core.first.call(null,seq__22336__$1);
+try{var values__8925__auto___22355 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_imperfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22356 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22355);
+if(cljs.core.truth_(result__8926__auto___22356)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"pass","pass",1574159993),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22355),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"fail","fail",1706214930),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27078),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"fail","fail",1706214930),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22355),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27066){var t__8976__auto___27080 = e27066;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"error","error",-978969032),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,t__8976__auto___27080,null]));
+}catch (e22343){var t__8976__auto___22357 = e22343;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",108,new cljs.core.Keyword(null,"error","error",-978969032),9,469,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-impf","imper-impf",1170579801),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-imperfective","conjugator/imperative-imperfective",-572091114,null))),469,t__8976__auto___22357,null]));
 }
 
-var G__27081 = cljs.core.next.call(null,seq__27059__$1);
-var G__27082 = null;
-var G__27083 = (0);
-var G__27084 = (0);
-seq__27059 = G__27081;
-chunk__27060 = G__27082;
-count__27061 = G__27083;
-i__27062 = G__27084;
+var G__22358 = cljs.core.next.call(null,seq__22336__$1);
+var G__22359 = null;
+var G__22360 = (0);
+var G__22361 = (0);
+seq__22336 = G__22358;
+chunk__22337 = G__22359;
+count__22338 = G__22360;
+i__22339 = G__22361;
 continue;
 }
 } else {
@@ -729,71 +729,71 @@ meshanka.core_test.imperative_perfective_test = (function meshanka$core_test$imp
 return cljs.test.test_var.call(null,meshanka.core_test.imperative_perfective_test.cljs$lang$var);
 });
 meshanka.core_test.imperative_perfective_test.cljs$lang$test = (function (){
-var seq__27085 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27086 = null;
-var count__27087 = (0);
-var i__27088 = (0);
+var seq__22362 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22363 = null;
+var count__22364 = (0);
+var i__22365 = (0);
 while(true){
-if((i__27088 < count__27087)){
-var v = cljs.core._nth.call(null,chunk__27086,i__27088);
-try{var values__8925__auto___27093 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27094 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27093);
-if(cljs.core.truth_(result__8926__auto___27094)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"pass","pass",1574159993),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27093),null]));
+if((i__22365 < count__22364)){
+var v = cljs.core._nth.call(null,chunk__22363,i__22365);
+try{var values__8925__auto___22370 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22371 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22370);
+if(cljs.core.truth_(result__8926__auto___22371)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"pass","pass",1574159993),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22370),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"fail","fail",1706214930),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27093),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"fail","fail",1706214930),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22370),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27091){var t__8976__auto___27095 = e27091;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"error","error",-978969032),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,t__8976__auto___27095,null]));
+}catch (e22368){var t__8976__auto___22372 = e22368;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"error","error",-978969032),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,t__8976__auto___22372,null]));
 }
 
-var G__27096 = seq__27085;
-var G__27097 = chunk__27086;
-var G__27098 = count__27087;
-var G__27099 = (i__27088 + (1));
-seq__27085 = G__27096;
-chunk__27086 = G__27097;
-count__27087 = G__27098;
-i__27088 = G__27099;
+var G__22373 = seq__22362;
+var G__22374 = chunk__22363;
+var G__22375 = count__22364;
+var G__22376 = (i__22365 + (1));
+seq__22362 = G__22373;
+chunk__22363 = G__22374;
+count__22364 = G__22375;
+i__22365 = G__22376;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27085);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22362);
 if(temp__5720__auto__){
-var seq__27085__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27085__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27085__$1);
-var G__27100 = cljs.core.chunk_rest.call(null,seq__27085__$1);
-var G__27101 = c__4679__auto__;
-var G__27102 = cljs.core.count.call(null,c__4679__auto__);
-var G__27103 = (0);
-seq__27085 = G__27100;
-chunk__27086 = G__27101;
-count__27087 = G__27102;
-i__27088 = G__27103;
+var seq__22362__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22362__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22362__$1);
+var G__22377 = cljs.core.chunk_rest.call(null,seq__22362__$1);
+var G__22378 = c__4679__auto__;
+var G__22379 = cljs.core.count.call(null,c__4679__auto__);
+var G__22380 = (0);
+seq__22362 = G__22377;
+chunk__22363 = G__22378;
+count__22364 = G__22379;
+i__22365 = G__22380;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27085__$1);
-try{var values__8925__auto___27104 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27105 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27104);
-if(cljs.core.truth_(result__8926__auto___27105)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"pass","pass",1574159993),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27104),null]));
+var v = cljs.core.first.call(null,seq__22362__$1);
+try{var values__8925__auto___22381 = (new cljs.core.List(null,new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.imperative_perfective.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22382 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22381);
+if(cljs.core.truth_(result__8926__auto___22382)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"pass","pass",1574159993),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22381),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"fail","fail",1706214930),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27104),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"fail","fail",1706214930),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22381),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27092){var t__8976__auto___27106 = e27092;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"error","error",-978969032),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,t__8976__auto___27106,null]));
+}catch (e22369){var t__8976__auto___22383 = e22369;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",104,new cljs.core.Keyword(null,"error","error",-978969032),9,473,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"imper-pf","imper-pf",1495649566),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","imperative-perfective","conjugator/imperative-perfective",-1181458105,null))),473,t__8976__auto___22383,null]));
 }
 
-var G__27107 = cljs.core.next.call(null,seq__27085__$1);
-var G__27108 = null;
-var G__27109 = (0);
-var G__27110 = (0);
-seq__27085 = G__27107;
-chunk__27086 = G__27108;
-count__27087 = G__27109;
-i__27088 = G__27110;
+var G__22384 = cljs.core.next.call(null,seq__22362__$1);
+var G__22385 = null;
+var G__22386 = (0);
+var G__22387 = (0);
+seq__22362 = G__22384;
+chunk__22363 = G__22385;
+count__22364 = G__22386;
+i__22365 = G__22387;
 continue;
 }
 } else {
@@ -809,71 +809,71 @@ meshanka.core_test.present_active_participle_test = (function meshanka$core_test
 return cljs.test.test_var.call(null,meshanka.core_test.present_active_participle_test.cljs$lang$var);
 });
 meshanka.core_test.present_active_participle_test.cljs$lang$test = (function (){
-var seq__27111 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27112 = null;
-var count__27113 = (0);
-var i__27114 = (0);
+var seq__22388 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22389 = null;
+var count__22390 = (0);
+var i__22391 = (0);
 while(true){
-if((i__27114 < count__27113)){
-var v = cljs.core._nth.call(null,chunk__27112,i__27114);
-try{var values__8925__auto___27119 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27120 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27119);
-if(cljs.core.truth_(result__8926__auto___27120)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"pass","pass",1574159993),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27119),null]));
+if((i__22391 < count__22390)){
+var v = cljs.core._nth.call(null,chunk__22389,i__22391);
+try{var values__8925__auto___22396 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22397 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22396);
+if(cljs.core.truth_(result__8926__auto___22397)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"pass","pass",1574159993),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22396),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"fail","fail",1706214930),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27119),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"fail","fail",1706214930),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22396),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27117){var t__8976__auto___27121 = e27117;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"error","error",-978969032),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,t__8976__auto___27121,null]));
+}catch (e22394){var t__8976__auto___22398 = e22394;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"error","error",-978969032),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,t__8976__auto___22398,null]));
 }
 
-var G__27122 = seq__27111;
-var G__27123 = chunk__27112;
-var G__27124 = count__27113;
-var G__27125 = (i__27114 + (1));
-seq__27111 = G__27122;
-chunk__27112 = G__27123;
-count__27113 = G__27124;
-i__27114 = G__27125;
+var G__22399 = seq__22388;
+var G__22400 = chunk__22389;
+var G__22401 = count__22390;
+var G__22402 = (i__22391 + (1));
+seq__22388 = G__22399;
+chunk__22389 = G__22400;
+count__22390 = G__22401;
+i__22391 = G__22402;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27111);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22388);
 if(temp__5720__auto__){
-var seq__27111__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27111__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27111__$1);
-var G__27126 = cljs.core.chunk_rest.call(null,seq__27111__$1);
-var G__27127 = c__4679__auto__;
-var G__27128 = cljs.core.count.call(null,c__4679__auto__);
-var G__27129 = (0);
-seq__27111 = G__27126;
-chunk__27112 = G__27127;
-count__27113 = G__27128;
-i__27114 = G__27129;
+var seq__22388__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22388__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22388__$1);
+var G__22403 = cljs.core.chunk_rest.call(null,seq__22388__$1);
+var G__22404 = c__4679__auto__;
+var G__22405 = cljs.core.count.call(null,c__4679__auto__);
+var G__22406 = (0);
+seq__22388 = G__22403;
+chunk__22389 = G__22404;
+count__22390 = G__22405;
+i__22391 = G__22406;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27111__$1);
-try{var values__8925__auto___27130 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27131 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27130);
-if(cljs.core.truth_(result__8926__auto___27131)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"pass","pass",1574159993),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27130),null]));
+var v = cljs.core.first.call(null,seq__22388__$1);
+try{var values__8925__auto___22407 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22408 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22407);
+if(cljs.core.truth_(result__8926__auto___22408)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"pass","pass",1574159993),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22407),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"fail","fail",1706214930),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27130),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"fail","fail",1706214930),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22407),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27118){var t__8976__auto___27132 = e27118;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"error","error",-978969032),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,t__8976__auto___27132,null]));
+}catch (e22395){var t__8976__auto___22409 = e22395;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",112,new cljs.core.Keyword(null,"error","error",-978969032),9,477,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-act-prtc","prs-act-prtc",1890919481),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-active-participle","conjugator/present-active-participle",2050262407,null))),477,t__8976__auto___22409,null]));
 }
 
-var G__27133 = cljs.core.next.call(null,seq__27111__$1);
-var G__27134 = null;
-var G__27135 = (0);
-var G__27136 = (0);
-seq__27111 = G__27133;
-chunk__27112 = G__27134;
-count__27113 = G__27135;
-i__27114 = G__27136;
+var G__22410 = cljs.core.next.call(null,seq__22388__$1);
+var G__22411 = null;
+var G__22412 = (0);
+var G__22413 = (0);
+seq__22388 = G__22410;
+chunk__22389 = G__22411;
+count__22390 = G__22412;
+i__22391 = G__22413;
 continue;
 }
 } else {
@@ -889,71 +889,71 @@ meshanka.core_test.present_passive_participle_test = (function meshanka$core_tes
 return cljs.test.test_var.call(null,meshanka.core_test.present_passive_participle_test.cljs$lang$var);
 });
 meshanka.core_test.present_passive_participle_test.cljs$lang$test = (function (){
-var seq__27137 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27138 = null;
-var count__27139 = (0);
-var i__27140 = (0);
+var seq__22414 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22415 = null;
+var count__22416 = (0);
+var i__22417 = (0);
 while(true){
-if((i__27140 < count__27139)){
-var v = cljs.core._nth.call(null,chunk__27138,i__27140);
-try{var values__8925__auto___27145 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_passive_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27146 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27145);
-if(cljs.core.truth_(result__8926__auto___27146)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"pass","pass",1574159993),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27145),null]));
+if((i__22417 < count__22416)){
+var v = cljs.core._nth.call(null,chunk__22415,i__22417);
+try{var values__8925__auto___22422 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_passive_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22423 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22422);
+if(cljs.core.truth_(result__8926__auto___22423)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"pass","pass",1574159993),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22422),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"fail","fail",1706214930),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27145),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"fail","fail",1706214930),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22422),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27143){var t__8976__auto___27147 = e27143;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"error","error",-978969032),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,t__8976__auto___27147,null]));
+}catch (e22420){var t__8976__auto___22424 = e22420;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"error","error",-978969032),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,t__8976__auto___22424,null]));
 }
 
-var G__27148 = seq__27137;
-var G__27149 = chunk__27138;
-var G__27150 = count__27139;
-var G__27151 = (i__27140 + (1));
-seq__27137 = G__27148;
-chunk__27138 = G__27149;
-count__27139 = G__27150;
-i__27140 = G__27151;
+var G__22425 = seq__22414;
+var G__22426 = chunk__22415;
+var G__22427 = count__22416;
+var G__22428 = (i__22417 + (1));
+seq__22414 = G__22425;
+chunk__22415 = G__22426;
+count__22416 = G__22427;
+i__22417 = G__22428;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27137);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22414);
 if(temp__5720__auto__){
-var seq__27137__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27137__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27137__$1);
-var G__27152 = cljs.core.chunk_rest.call(null,seq__27137__$1);
-var G__27153 = c__4679__auto__;
-var G__27154 = cljs.core.count.call(null,c__4679__auto__);
-var G__27155 = (0);
-seq__27137 = G__27152;
-chunk__27138 = G__27153;
-count__27139 = G__27154;
-i__27140 = G__27155;
+var seq__22414__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22414__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22414__$1);
+var G__22429 = cljs.core.chunk_rest.call(null,seq__22414__$1);
+var G__22430 = c__4679__auto__;
+var G__22431 = cljs.core.count.call(null,c__4679__auto__);
+var G__22432 = (0);
+seq__22414 = G__22429;
+chunk__22415 = G__22430;
+count__22416 = G__22431;
+i__22417 = G__22432;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27137__$1);
-try{var values__8925__auto___27156 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_passive_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27157 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27156);
-if(cljs.core.truth_(result__8926__auto___27157)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"pass","pass",1574159993),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27156),null]));
+var v = cljs.core.first.call(null,seq__22414__$1);
+try{var values__8925__auto___22433 = (new cljs.core.List(null,new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.present_passive_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22434 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22433);
+if(cljs.core.truth_(result__8926__auto___22434)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"pass","pass",1574159993),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22433),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"fail","fail",1706214930),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27156),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"fail","fail",1706214930),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22433),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27144){var t__8976__auto___27158 = e27144;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"error","error",-978969032),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,t__8976__auto___27158,null]));
+}catch (e22421){var t__8976__auto___22435 = e22421;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",114,new cljs.core.Keyword(null,"error","error",-978969032),9,481,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"prs-pass-prtc","prs-pass-prtc",-2104846586),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","present-passive-participle","conjugator/present-passive-participle",-539601525,null))),481,t__8976__auto___22435,null]));
 }
 
-var G__27159 = cljs.core.next.call(null,seq__27137__$1);
-var G__27160 = null;
-var G__27161 = (0);
-var G__27162 = (0);
-seq__27137 = G__27159;
-chunk__27138 = G__27160;
-count__27139 = G__27161;
-i__27140 = G__27162;
+var G__22436 = cljs.core.next.call(null,seq__22414__$1);
+var G__22437 = null;
+var G__22438 = (0);
+var G__22439 = (0);
+seq__22414 = G__22436;
+chunk__22415 = G__22437;
+count__22416 = G__22438;
+i__22417 = G__22439;
 continue;
 }
 } else {
@@ -969,71 +969,71 @@ meshanka.core_test.past_active_participle_test = (function meshanka$core_test$pa
 return cljs.test.test_var.call(null,meshanka.core_test.past_active_participle_test.cljs$lang$var);
 });
 meshanka.core_test.past_active_participle_test.cljs$lang$test = (function (){
-var seq__27163 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27164 = null;
-var count__27165 = (0);
-var i__27166 = (0);
+var seq__22440 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22441 = null;
+var count__22442 = (0);
+var i__22443 = (0);
 while(true){
-if((i__27166 < count__27165)){
-var v = cljs.core._nth.call(null,chunk__27164,i__27166);
-try{var values__8925__auto___27171 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27172 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27171);
-if(cljs.core.truth_(result__8926__auto___27172)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"pass","pass",1574159993),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27171),null]));
+if((i__22443 < count__22442)){
+var v = cljs.core._nth.call(null,chunk__22441,i__22443);
+try{var values__8925__auto___22448 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22449 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22448);
+if(cljs.core.truth_(result__8926__auto___22449)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"pass","pass",1574159993),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22448),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"fail","fail",1706214930),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27171),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"fail","fail",1706214930),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22448),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27169){var t__8976__auto___27173 = e27169;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"error","error",-978969032),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,t__8976__auto___27173,null]));
+}catch (e22446){var t__8976__auto___22450 = e22446;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"error","error",-978969032),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,t__8976__auto___22450,null]));
 }
 
-var G__27174 = seq__27163;
-var G__27175 = chunk__27164;
-var G__27176 = count__27165;
-var G__27177 = (i__27166 + (1));
-seq__27163 = G__27174;
-chunk__27164 = G__27175;
-count__27165 = G__27176;
-i__27166 = G__27177;
+var G__22451 = seq__22440;
+var G__22452 = chunk__22441;
+var G__22453 = count__22442;
+var G__22454 = (i__22443 + (1));
+seq__22440 = G__22451;
+chunk__22441 = G__22452;
+count__22442 = G__22453;
+i__22443 = G__22454;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27163);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22440);
 if(temp__5720__auto__){
-var seq__27163__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27163__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27163__$1);
-var G__27178 = cljs.core.chunk_rest.call(null,seq__27163__$1);
-var G__27179 = c__4679__auto__;
-var G__27180 = cljs.core.count.call(null,c__4679__auto__);
-var G__27181 = (0);
-seq__27163 = G__27178;
-chunk__27164 = G__27179;
-count__27165 = G__27180;
-i__27166 = G__27181;
+var seq__22440__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22440__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22440__$1);
+var G__22455 = cljs.core.chunk_rest.call(null,seq__22440__$1);
+var G__22456 = c__4679__auto__;
+var G__22457 = cljs.core.count.call(null,c__4679__auto__);
+var G__22458 = (0);
+seq__22440 = G__22455;
+chunk__22441 = G__22456;
+count__22442 = G__22457;
+i__22443 = G__22458;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27163__$1);
-try{var values__8925__auto___27182 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
-var result__8926__auto___27183 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27182);
-if(cljs.core.truth_(result__8926__auto___27183)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"pass","pass",1574159993),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27182),null]));
+var v = cljs.core.first.call(null,seq__22440__$1);
+try{var values__8925__auto___22459 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_active_participle.call(null,meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v))),null,(1),null)),(2),null));
+var result__8926__auto___22460 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22459);
+if(cljs.core.truth_(result__8926__auto___22460)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"pass","pass",1574159993),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22459),null]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"fail","fail",1706214930),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27182),null,(1),null)),(2),null)),null]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"fail","fail",1706214930),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22459),null,(1),null)),(2),null)),null]));
 }
 
-}catch (e27170){var t__8976__auto___27184 = e27170;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"error","error",-978969032),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,t__8976__auto___27184,null]));
+}catch (e22447){var t__8976__auto___22461 = e22447;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",110,new cljs.core.Keyword(null,"error","error",-978969032),9,485,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-act-prtc","past-act-prtc",-993277194),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol(null,"->","->",-2139605430,null),cljs.core.list(new cljs.core.Keyword(null,"verb","verb",-1492655803),new cljs.core.Symbol(null,"v","v",1661996586,null)),new cljs.core.Symbol("conjugator","prepare-verb-props","conjugator/prepare-verb-props",2073193299,null),new cljs.core.Symbol("conjugator","past-active-participle","conjugator/past-active-participle",-607547093,null))),485,t__8976__auto___22461,null]));
 }
 
-var G__27185 = cljs.core.next.call(null,seq__27163__$1);
-var G__27186 = null;
-var G__27187 = (0);
-var G__27188 = (0);
-seq__27163 = G__27185;
-chunk__27164 = G__27186;
-count__27165 = G__27187;
-i__27166 = G__27188;
+var G__22462 = cljs.core.next.call(null,seq__22440__$1);
+var G__22463 = null;
+var G__22464 = (0);
+var G__22465 = (0);
+seq__22440 = G__22462;
+chunk__22441 = G__22463;
+count__22442 = G__22464;
+i__22443 = G__22465;
 continue;
 }
 } else {
@@ -1049,73 +1049,73 @@ meshanka.core_test.past_passive_participle_test = (function meshanka$core_test$p
 return cljs.test.test_var.call(null,meshanka.core_test.past_passive_participle_test.cljs$lang$var);
 });
 meshanka.core_test.past_passive_participle_test.cljs$lang$test = (function (){
-var seq__27189 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27190 = null;
-var count__27191 = (0);
-var i__27192 = (0);
+var seq__22466 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22467 = null;
+var count__22468 = (0);
+var i__22469 = (0);
 while(true){
-if((i__27192 < count__27191)){
-var v = cljs.core._nth.call(null,chunk__27190,i__27192);
-var prepared_verb_27197 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
-try{var values__8925__auto___27198 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_passive_participle.call(null,prepared_verb_27197),null,(1),null)),(2),null));
-var result__8926__auto___27199 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27198);
-if(cljs.core.truth_(result__8926__auto___27199)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"pass","pass",1574159993),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27198),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27197))].join('')]));
+if((i__22469 < count__22468)){
+var v = cljs.core._nth.call(null,chunk__22467,i__22469);
+var prepared_verb_22474 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
+try{var values__8925__auto___22475 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_passive_participle.call(null,prepared_verb_22474),null,(1),null)),(2),null));
+var result__8926__auto___22476 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22475);
+if(cljs.core.truth_(result__8926__auto___22476)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"pass","pass",1574159993),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22475),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22474))].join('')]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"fail","fail",1706214930),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27198),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27197))].join('')]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"fail","fail",1706214930),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22475),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22474))].join('')]));
 }
 
-}catch (e27195){var t__8976__auto___27200 = e27195;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"error","error",-978969032),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,t__8976__auto___27200,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27197))].join('')]));
+}catch (e22472){var t__8976__auto___22477 = e22472;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"error","error",-978969032),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,t__8976__auto___22477,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22474))].join('')]));
 }
 
-var G__27201 = seq__27189;
-var G__27202 = chunk__27190;
-var G__27203 = count__27191;
-var G__27204 = (i__27192 + (1));
-seq__27189 = G__27201;
-chunk__27190 = G__27202;
-count__27191 = G__27203;
-i__27192 = G__27204;
+var G__22478 = seq__22466;
+var G__22479 = chunk__22467;
+var G__22480 = count__22468;
+var G__22481 = (i__22469 + (1));
+seq__22466 = G__22478;
+chunk__22467 = G__22479;
+count__22468 = G__22480;
+i__22469 = G__22481;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27189);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22466);
 if(temp__5720__auto__){
-var seq__27189__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27189__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27189__$1);
-var G__27205 = cljs.core.chunk_rest.call(null,seq__27189__$1);
-var G__27206 = c__4679__auto__;
-var G__27207 = cljs.core.count.call(null,c__4679__auto__);
-var G__27208 = (0);
-seq__27189 = G__27205;
-chunk__27190 = G__27206;
-count__27191 = G__27207;
-i__27192 = G__27208;
+var seq__22466__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22466__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22466__$1);
+var G__22482 = cljs.core.chunk_rest.call(null,seq__22466__$1);
+var G__22483 = c__4679__auto__;
+var G__22484 = cljs.core.count.call(null,c__4679__auto__);
+var G__22485 = (0);
+seq__22466 = G__22482;
+chunk__22467 = G__22483;
+count__22468 = G__22484;
+i__22469 = G__22485;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27189__$1);
-var prepared_verb_27209 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
-try{var values__8925__auto___27210 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_passive_participle.call(null,prepared_verb_27209),null,(1),null)),(2),null));
-var result__8926__auto___27211 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27210);
-if(cljs.core.truth_(result__8926__auto___27211)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"pass","pass",1574159993),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27210),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27209))].join('')]));
+var v = cljs.core.first.call(null,seq__22466__$1);
+var prepared_verb_22486 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
+try{var values__8925__auto___22487 = (new cljs.core.List(null,new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.past_passive_participle.call(null,prepared_verb_22486),null,(1),null)),(2),null));
+var result__8926__auto___22488 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22487);
+if(cljs.core.truth_(result__8926__auto___22488)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"pass","pass",1574159993),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22487),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22486))].join('')]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"fail","fail",1706214930),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27210),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27209))].join('')]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"fail","fail",1706214930),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22487),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22486))].join('')]));
 }
 
-}catch (e27196){var t__8976__auto___27212 = e27196;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"error","error",-978969032),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,t__8976__auto___27212,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27209))].join('')]));
+}catch (e22473){var t__8976__auto___22489 = e22473;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",85,new cljs.core.Keyword(null,"error","error",-978969032),11,490,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"past-pass-prtc","past-pass-prtc",-2000388122),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","past-passive-participle","conjugator/past-passive-participle",-43638366,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),490,t__8976__auto___22489,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22486))].join('')]));
 }
 
-var G__27213 = cljs.core.next.call(null,seq__27189__$1);
-var G__27214 = null;
-var G__27215 = (0);
-var G__27216 = (0);
-seq__27189 = G__27213;
-chunk__27190 = G__27214;
-count__27191 = G__27215;
-i__27192 = G__27216;
+var G__22490 = cljs.core.next.call(null,seq__22466__$1);
+var G__22491 = null;
+var G__22492 = (0);
+var G__22493 = (0);
+seq__22466 = G__22490;
+chunk__22467 = G__22491;
+count__22468 = G__22492;
+i__22469 = G__22493;
 continue;
 }
 } else {
@@ -1131,73 +1131,73 @@ meshanka.core_test.verbal_noun_test = (function meshanka$core_test$verbal_noun_t
 return cljs.test.test_var.call(null,meshanka.core_test.verbal_noun_test.cljs$lang$var);
 });
 meshanka.core_test.verbal_noun_test.cljs$lang$test = (function (){
-var seq__27217 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
-var chunk__27218 = null;
-var count__27219 = (0);
-var i__27220 = (0);
+var seq__22494 = cljs.core.seq.call(null,meshanka.core_test.test_verbs);
+var chunk__22495 = null;
+var count__22496 = (0);
+var i__22497 = (0);
 while(true){
-if((i__27220 < count__27219)){
-var v = cljs.core._nth.call(null,chunk__27218,i__27220);
-var prepared_verb_27225 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
-try{var values__8925__auto___27226 = (new cljs.core.List(null,new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.verbal_noun.call(null,prepared_verb_27225),null,(1),null)),(2),null));
-var result__8926__auto___27227 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27226);
-if(cljs.core.truth_(result__8926__auto___27227)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"pass","pass",1574159993),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27226),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27225))].join('')]));
+if((i__22497 < count__22496)){
+var v = cljs.core._nth.call(null,chunk__22495,i__22497);
+var prepared_verb_22502 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
+try{var values__8925__auto___22503 = (new cljs.core.List(null,new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.verbal_noun.call(null,prepared_verb_22502),null,(1),null)),(2),null));
+var result__8926__auto___22504 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22503);
+if(cljs.core.truth_(result__8926__auto___22504)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"pass","pass",1574159993),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22503),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22502))].join('')]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"fail","fail",1706214930),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27226),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27225))].join('')]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"fail","fail",1706214930),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22503),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22502))].join('')]));
 }
 
-}catch (e27223){var t__8976__auto___27228 = e27223;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"error","error",-978969032),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,t__8976__auto___27228,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27225))].join('')]));
+}catch (e22500){var t__8976__auto___22505 = e22500;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"error","error",-978969032),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,t__8976__auto___22505,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22502))].join('')]));
 }
 
-var G__27229 = seq__27217;
-var G__27230 = chunk__27218;
-var G__27231 = count__27219;
-var G__27232 = (i__27220 + (1));
-seq__27217 = G__27229;
-chunk__27218 = G__27230;
-count__27219 = G__27231;
-i__27220 = G__27232;
+var G__22506 = seq__22494;
+var G__22507 = chunk__22495;
+var G__22508 = count__22496;
+var G__22509 = (i__22497 + (1));
+seq__22494 = G__22506;
+chunk__22495 = G__22507;
+count__22496 = G__22508;
+i__22497 = G__22509;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__27217);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__22494);
 if(temp__5720__auto__){
-var seq__27217__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__27217__$1)){
-var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__27217__$1);
-var G__27233 = cljs.core.chunk_rest.call(null,seq__27217__$1);
-var G__27234 = c__4679__auto__;
-var G__27235 = cljs.core.count.call(null,c__4679__auto__);
-var G__27236 = (0);
-seq__27217 = G__27233;
-chunk__27218 = G__27234;
-count__27219 = G__27235;
-i__27220 = G__27236;
+var seq__22494__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__22494__$1)){
+var c__4679__auto__ = cljs.core.chunk_first.call(null,seq__22494__$1);
+var G__22510 = cljs.core.chunk_rest.call(null,seq__22494__$1);
+var G__22511 = c__4679__auto__;
+var G__22512 = cljs.core.count.call(null,c__4679__auto__);
+var G__22513 = (0);
+seq__22494 = G__22510;
+chunk__22495 = G__22511;
+count__22496 = G__22512;
+i__22497 = G__22513;
 continue;
 } else {
-var v = cljs.core.first.call(null,seq__27217__$1);
-var prepared_verb_27237 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
-try{var values__8925__auto___27238 = (new cljs.core.List(null,new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.verbal_noun.call(null,prepared_verb_27237),null,(1),null)),(2),null));
-var result__8926__auto___27239 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___27238);
-if(cljs.core.truth_(result__8926__auto___27239)){
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"pass","pass",1574159993),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27238),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27237))].join('')]));
+var v = cljs.core.first.call(null,seq__22494__$1);
+var prepared_verb_22514 = meshanka.pages.conjugator.prepare_verb_props.call(null,new cljs.core.Keyword(null,"verb","verb",-1492655803).cljs$core$IFn$_invoke$arity$1(v));
+try{var values__8925__auto___22515 = (new cljs.core.List(null,new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658).cljs$core$IFn$_invoke$arity$1(v),(new cljs.core.List(null,meshanka.pages.conjugator.verbal_noun.call(null,prepared_verb_22514),null,(1),null)),(2),null));
+var result__8926__auto___22516 = cljs.core.apply.call(null,cljs.core._EQ_,values__8925__auto___22515);
+if(cljs.core.truth_(result__8926__auto___22516)){
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"pass","pass",1574159993),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22515),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22514))].join('')]));
 } else {
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"fail","fail",1706214930),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___27238),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27237))].join('')]));
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"fail","fail",1706214930),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,(new cljs.core.List(null,new cljs.core.Symbol(null,"not","not",1044554643,null),(new cljs.core.List(null,cljs.core.cons.call(null,new cljs.core.Symbol(null,"=","=",-1501502141,null),values__8925__auto___22515),null,(1),null)),(2),null)),[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22514))].join('')]));
 }
 
-}catch (e27224){var t__8976__auto___27240 = e27224;
-cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"error","error",-978969032),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,t__8976__auto___27240,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_27237))].join('')]));
+}catch (e22501){var t__8976__auto___22517 = e22501;
+cljs.test.report.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"expected","expected",1583670997),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"actual","actual",107306363),new cljs.core.Keyword(null,"message","message",-406056002)],["/Users/megatron/Documents/clojure-land/meshanka.frontend/test/meshanka/frontend_test.cljs",70,new cljs.core.Keyword(null,"error","error",-978969032),11,496,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1501502141,null),cljs.core.list(new cljs.core.Keyword(null,"verbal-noun","verbal-noun",-1468950658),new cljs.core.Symbol(null,"v","v",1661996586,null)),cljs.core.list(new cljs.core.Symbol("conjugator","verbal-noun","conjugator/verbal-noun",278076853,null),new cljs.core.Symbol(null,"prepared-verb","prepared-verb",896921989,null))),496,t__8976__auto___22517,[":: Verb type: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"verb-type","verb-type",-70215654).cljs$core$IFn$_invoke$arity$1(prepared_verb_22514))].join('')]));
 }
 
-var G__27241 = cljs.core.next.call(null,seq__27217__$1);
-var G__27242 = null;
-var G__27243 = (0);
-var G__27244 = (0);
-seq__27217 = G__27241;
-chunk__27218 = G__27242;
-count__27219 = G__27243;
-i__27220 = G__27244;
+var G__22518 = cljs.core.next.call(null,seq__22494__$1);
+var G__22519 = null;
+var G__22520 = (0);
+var G__22521 = (0);
+seq__22494 = G__22518;
+chunk__22495 = G__22519;
+count__22496 = G__22520;
+i__22497 = G__22521;
 continue;
 }
 } else {

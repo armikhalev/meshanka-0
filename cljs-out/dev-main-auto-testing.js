@@ -1,4 +1,4 @@
-window.CLOSURE_UNCOMPILED_DEFINES = {"figwheel.repl.connect_url":"ws:\/\/localhost:9500\/figwheel-connect?fwprocess=ecd3f4&fwbuild=dev"};
+window.CLOSURE_UNCOMPILED_DEFINES = {"figwheel.repl.connect_url":"ws:\/\/localhost:9500\/figwheel-connect?fwprocess=219b2e&fwbuild=dev"};
 window.CLOSURE_NO_DEPS = true;
 if(typeof goog == "undefined") document.write('<script src="/cljs-out/dev/goog/base.js"></script>');
 document.write('<script src="/cljs-out/dev/goog/deps.js"></script>');
